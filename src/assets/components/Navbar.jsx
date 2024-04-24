@@ -14,7 +14,9 @@ const Navbar = () => {
               <img src={Logo} alt="logo" />
             </div>
             <div className="">
-              <ul className="lg:flex gap-x-[47px] items-center">
+              <ul
+                className={`lg:flex gap-x-[47px] items-center absolute top-0 -right-[500px] lg:static duration-700 ease-in-out ${ show == true ? "bg-[#F40404] w-fill px-5 py-2 top-[165px] right-[0] text-center" : "bg-[#F40404] w-fill px-5 py-2 top-[165px] text-center" }`}
+              >
                 <li>
                   <a className="fonts-pops text-white font-semibold" href="#">
                     Home
