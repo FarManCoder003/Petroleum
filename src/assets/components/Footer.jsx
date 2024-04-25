@@ -58,7 +58,7 @@ const Footer = () => {
               <div className="font-bold text-[16px] mb-[21px]">
                 Certificates
               </div>
-              <div className="flex gap-1">
+              <div className="lg:flex gap-1">
                 <img src={certi1} alt="" className="max-w-100 w-full" />
                 <img src={certi2} alt="" className="max-w-100 w-full" />
               </div>
