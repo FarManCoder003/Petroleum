@@ -1,18 +1,19 @@
 import { MdKeyboardArrowRight } from "react-icons/md";
 import Company from "../images/Company.png";
 import Map from "../images/Maps.png";
-import AboutImg from "../images/About.png"
 
 const About = () => {
   return (
     <>
       <div className="bg-[#F0F0F0] py-32">
         <div className="max-w-container mx-auto">
-          <img src={AboutImg} className="absolute z-[-99] lg:pl-[120px] lg:py-[100px]">
-            <div className="relative flex">
+          <div className="bg-aboutimg bg-cover flex lg:pl-[120px] lg:py-[100px]">
+            <div className="">
               <div className="w-2/4 text-white font-pops font-bold lg:text-[36px] ml-[20px]">
                 Learn more about our company
               </div>
+            </div>
+            <div className="">
               <div className="lg:w-[172px] w-[100px] lg:h-[61px] lg:text-[20px] font-semibold font-pops text-[#F40404] bg-white text-center p-1 mt-[20px] lg:leading-[61px] lg:ml-[80px] lg:mt-[50px]">
                 Learn More
               </div>
