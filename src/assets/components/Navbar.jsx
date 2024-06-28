@@ -15,7 +15,7 @@ const Navbar = () => {
             </div>
             <div className="">
               <ul
-                className={`lg:flex gap-x-[47px] items-center absolute top-0 right-[0] lg:static duration-700 ease-in-out ${ show == true ? "bg-[#F40404] w-fill px-5 py-2 top-[165px] right-[1000px] text-center" : "bg-[#F40404] w-fill px-5 py-2 top-[165px] text-center" }`}
+                className={`lg:flex gap-x-[47px] items-center absolute top-0 right-[1000px] lg:static duration-700 ease-in-out ${ show == true ? "bg-[#F40404] w-fill px-5 py-2 top-[165px] right-[0px] text-center" : "bg-[#F40404] w-fill px-5 py-2 top-[165px] text-center" }`}
               >
                 <li>
                   <a className="fonts-pops text-white font-semibold" href="#">
